@@ -3,7 +3,10 @@ import '../styles/globals.css'
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ThemeProvider attribute="class">
+    <ThemeProvider 
+      attribute="class"
+      storageKey="theme"
+    >
       <Component {...pageProps} />
     </ThemeProvider>
   )
