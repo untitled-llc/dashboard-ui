@@ -17,7 +17,7 @@ export default function TopBar() {
             <>
             <div className="bg-white border-b border-gray-100 dark:bg-gray-900 dark:border-gray-800 mx-auto px-4 sm:px-6 lg:px-8">
                 <div className="flex justify-between items-center h-16">
-                    {theme !== 'dark' ? 
+                    {theme === 'light' && 
                         <>
                             <img
                                 className="block lg:hidden h-8 w-auto"
@@ -30,7 +30,8 @@ export default function TopBar() {
                                 alt="Black Untitled Logo"
                             />
                         </> 
-                    :
+                    }
+                    {theme === 'dark' &&
                         <>
                             <img
                                 className="block lg:hidden h-8 w-auto"
