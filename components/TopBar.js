@@ -178,7 +178,7 @@ export default function TopBar() {
                     Calendar
                 </a>
                 </div>
-                <div className="pt-4 pb-3 border-t border-gray-800">
+                <div className="pt-4 pb-3 border-t border-gray-100">
                 <div className="flex items-center px-4 sm:px-6">
                     <div className="flex-shrink-0">
                     <img
